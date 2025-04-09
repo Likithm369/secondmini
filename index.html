@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShareBite | Food Donation</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-left">
+      <div class="logo">🍽️ ShareBite</div>
+    </div>
+    <div class="nav-right" id="navItems">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="donate.html" class="nav-link">Donate</a>
+      <a href="need.html" class="nav-link">Need Food</a>
+      <a href="available.html" class="nav-link">Available</a>
+      <a href="past.html" class="nav-link">Past Records</a>
+      <a href="login.html" class="nav-link">Login</a>
+      <div class="search-box">
+        <img src="https://img.icons8.com/ios-glyphs/30/search--v1.png" alt="search">
+        <input type="text" placeholder="Search...">
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <section class="hero" id="home">
+      <div class="welcome" id="welcomeMessage">
+        Welcome to ShareBite – Bringing Smiles Through Every Bite!
+      </div>
+      <div class="stats">
+        <div><strong>Total Donations:</strong> 1,527+</div>
+        <div><strong>Lives Saved:</strong> 3,210+</div>
+      </div>
+    </section>
+
+    <div class="marquee">
+      <div class="marquee-track">
+        <img src="https://images.unsplash.com/photo-1581090700227-1e8a4c88ae8d" alt="Helping Hands">
+        <img src="https://images.unsplash.com/photo-1589927986089-35812388d1f4" alt="Serving Food">
+        <img src="https://images.unsplash.com/photo-1576765607924-dbdc8bb8714d" alt="Donation Table">
+        <img src="https://images.unsplash.com/photo-1576765974994-03c0f7b35bc5" alt="Feeding the Poor">
+        <img src="https://images.unsplash.com/photo-1620169212389-d8f5c703e239" alt="Food for All">
+      </div>
+    </div>
+
+    <div class="container-wrapper">
+      <a href="donate.html" class="section-link">
+        <div class="container">
+          <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Donate Food">
+          <h2>Donate Food</h2>
+          <p>Share your surplus, make a difference in someone's life.</p>
+          <button class="action-btn">Donate</button>
+        </div>
+      </a>
+
+      <a href="need.html" class="section-link">
+        <div class="container">
+          <img src="https://images.pexels.com/photos/6646916/pexels-photo-6646916.jpeg" alt="Need Food">
+          <h2>Need Food</h2>
+          <p>Request food with dignity and ease. Help is just a click away.</p>
+          <button class="action-btn">Request</button>
+        </div>
+      </a>
+
+      <a href="past.html" class="section-link">
+        <div class="container">
+          <img src="pho/image copy.png" alt="Past Donations">
+          <h2>Past Donations</h2>
+          <p>Track how your contributions have made a difference.</p>
+          <button class="action-btn">View</button>
+        </div>
+      </a>
+
+      <a href="available.html" class="section-link">
+        <div class="container">
+          <img src="pho/image copy.png" alt="Available Food">
+          <h2>Available Food</h2>
+          <p>Explore currently available food ready for distribution.</p>
+          <button class="action-btn">Check</button>
+        </div>
+      </a>
+    </div>
+
+    <div class="donation-wrapper">
+      <div class="donation-section">
+        <h2>Support Feeding Programs</h2>
+        <p>100% of your donation will go to NGOs and trusted food charities.</p><br><br> 
+        <div class="donation-box">
+          <div class="preset-buttons">
+            <button>₹2000</button>
+            <button>₹5000</button>
+          </div>
+          <input type="number" id="customAmount" placeholder="Custom Amount" />
+          <button class="donate-now">Donate Now</button>
+          <p class="donation-msg">Thank you for making a difference 💚</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 ShareBite — Spreading Love and Humanity. Made by HM ©.</p>
+  </footer>
+
+</body>
+</html>

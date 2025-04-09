@@ -1,0 +1,93 @@
+<!-- available.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Available Food | ShareBite</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #e6ffe6;
+      padding: 40px;
+    }
+
+    .available-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .item h3 {
+      color: #1f4037;
+    }
+
+    .item p {
+      margin: 6px 0;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 30px;
+      background-color: #1f4037;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .nav-link {
+      text-decoration: none;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 15px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .nav-link:hover {
+      background-color: #ffffff33;
+      color: #ffdf91;
+    }
+  </style>
+</head>
+<body>
+ <!-- ✅ Navbar -->
+ <nav class="navbar">
+    <div class="logo">🍽️ ShareBite</div>
+    <div>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="donate.html" class="nav-link">Donate</a>
+      <a href="view.html" class="nav-link">Need Food</a>
+      <a href="about.html" class="nav-link">About</a>
+    </div>
+  </nav>
+  <h2 style="margin-bottom: 20px;">Available Food Near You</h2>
+  <div class="available-list">
+    <div class="item">
+      <h3>Vegetable Curry</h3>
+      <p>Quantity: 3 kg</p>
+      <p>Expires: 2025-04-10</p>
+      <p>Contact: +91-9876543210</p>
+    </div>
+    <div class="item">
+      <h3>Chapati (Pack of 10)</h3>
+      <p>Quantity: 5 packs</p>
+      <p>Expires: 2025-04-09</p>
+      <p>Contact: +91-9123456780</p>
+    </div>
+  </div>
+
+</body>
+</html>
